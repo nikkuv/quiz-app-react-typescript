@@ -28,4 +28,5 @@ export const fetchQuestions = async (amount: number, difficulty: Difficulty ) =>
         answers : suffleArray([...question.incorrect_answers, question.correct_answer])
         }
     ))
+    
 }
