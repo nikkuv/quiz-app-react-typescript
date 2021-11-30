@@ -8,7 +8,7 @@
 - [React](https://reactjs.org/) - JS library
 - [Tailwind CSS](https://tailwindui.com/) - For styles
 
-- LinkedIn - [https://www.linkedin.com/in/saumya-verma-15bb311ab/]
-- Twitter - [@nikkuv5787](https://www.twitter.com/nikkuv5787)
+LinkedIn - [https://www.linkedin.com/in/saumya-verma-15bb311ab/]
+Twitter - [@nikkuv5787](https://www.twitter.com/nikkuv5787)
 
 Enjoy! And keep Learning 😁
