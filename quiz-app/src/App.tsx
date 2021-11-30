@@ -71,14 +71,15 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center flex-col flex justify-center bg-green-100">
-      <h1 className="text-3xl font-bold">Computer Science Quiz</h1>
+    <div className="min-h-screen flex items-center flex-col flex justify-center bg-green-100 pb-6">
+      <h1 className="text-3xl my-2 font-bold">Computer Science Quiz</h1>
+      <p className='text-xl font-medium m-2 p-2'>Test your computer science knowledge. Start Now 👇 </p>
       {(gameOver || userAns.length === totalQuestion) && (
         <button className="py-2 px-4 bg-green-500 rounded m-2 text-white font-medium" onClick={startQuiz}>
         Start
       </button>
       )}
-      {!gameOver && ( <p className='text-sm p-2 m-2 font-medium' >Score : {score}</p>)}
+      {!gameOver && ( <p className='text-xl p-2 m-2 font-medium' >Score : {score}</p>)}
       {loding && ( <p className='text-green-500 p-2 m-2 font-medium'>Loding questions ...</p>) }
       { !loding && !gameOver && (
          <QuestionCard
@@ -91,7 +92,7 @@ function App() {
        />
       )}
       {!gameOver && !loding  && userAns.length === number + 1 && number != totalQuestion-1 && (
-         <button onClick={nextQuestion}>
+         <button className='m-2 py-2 px-4 text-white bg-green-500 rounded' onClick={nextQuestion}>
          Next Questions
        </button>
       ) }
